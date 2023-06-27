@@ -14,7 +14,7 @@ let package = Package(
     .library(name: "Enhance", targets: ["Enhance"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/apollographql/apollo-ios.git", from: "1.0.0"),
+    .package(url: "https://github.com/apollographql/apollo-ios.git", from: "1.3.0"),
   ],
   targets: [
     .target(
